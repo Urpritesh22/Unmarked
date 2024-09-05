@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 5000
 
 # this is for executing the app...
-CMD ["python", "app1.py"]  # Change app.py to your main Flask file name
+CMD ["python", "app1.py"]  
