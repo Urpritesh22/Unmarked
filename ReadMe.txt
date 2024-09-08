@@ -8,6 +8,8 @@ EC2 Docker Deployment for Watermark Image Remover Application
 
 2 Connect to Instance
 
+Modify Security group rules to allow for port 5000 or just open all traffic
+
 3  Install Docker
 
    ##if the user is root then u can skip sudo 
