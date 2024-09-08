@@ -24,6 +24,8 @@ sudo systemctl enable docker
 
 sudo usermod -aG docker $USER
 
+newgrp docker
+
 
 4 repo cloning in ec2
 
