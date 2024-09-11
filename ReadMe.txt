@@ -1,3 +1,11 @@
+Some PDFs contain watermarks embedded as background images, which can be difficult to remove manually. Typically, you would have to go through each page and remove the watermark image individually, which is time-consuming.
+
+In this project, we developed an Image Watermark Remover Tool that automates this process. The tool has two functions:
+
+Watermark Detection and Removal: It scans the PDF and automatically removes the background watermark image without affecting the main content, such as text or front images.
+Image Verification: To ensure accuracy, it checks for watermarks by identifying images on a white background with gray text, making sure only the background image is removed.
+
+//////////////////////////////////////////////////
 
 EC2 Docker Deployment for Watermark Image Remover Application
 
