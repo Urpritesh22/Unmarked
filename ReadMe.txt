@@ -51,3 +51,12 @@ sudo docker run -d -p 5000:5000 flask-app
 http://<your-ec2-public-ip>:5000
 
 for accessing the app in web browser
+===================================================================================================================
+-------------------------------------------------------------------------------------------------------------------
+or you can directly install docker on your ec2 machine and create the container using the image from my Dockerhub repository.
+
+Step 1: Login to Ec2 (Modify Security group settings for Port 5000): 
+Step 2:  sudo apt update -y
+         sudo apt install docker.io -y
+Step 3: docker run -p 5000:5000 priteshchopade22/image-watermark-project
+Step 4: http://<your-ec2-public-ip>:5000
